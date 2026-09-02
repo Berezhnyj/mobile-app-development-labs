@@ -1,5 +1,19 @@
-# mobile-app-development-labs
+# Розроблення мобільних додатків
 Репозиторій лабораторних робіт з дисципліни "Розроблення мобільних додатків". Містить методичні вказівки, шаблони коду та практичні завдання для опанування основ мобільної розробки.
+
+---
+
+Список лабораторних робіт:
+- [Лабораторна робота №1](https://github.com/Berezhnyj/mobile-app-development-labs/tree/lab-01). Розроблення інтерактивних елементів інтерфейсу користувача засобами фреймворку Flutter
+- [Лабораторна робота №2](https://github.com/Berezhnyj/mobile-app-development-labs/tree/lab-02). Проєктування та розроблення кастомних віджетів візуальної складової мобільного застосунку
+- [Лабораторна робота №3](https://github.com/Berezhnyj/mobile-app-development-labs/tree/lab-03). Реалізація базової бізнес-логіки та функціональних інтерфейсів мобільного застосунку
+- [Лабораторна робота №4](https://github.com/Berezhnyj/mobile-app-development-labs/tree/lab-04). Інтеграція підсистеми авторизації та налаштування взаємодії з MQTT-пристроями
+- [Лабораторна робота №5](https://github.com/Berezhnyj/mobile-app-development-labs/tree/lab-05). Інтеграція мобільного застосунку із зовнішніми програмними інтерфейсами (REST API)
+- [Лабораторна робота №6](https://github.com/Berezhnyj/mobile-app-development-labs/tree/lab-06). Архітектурний рефакторинг та управління станом застосунку (State Management)
+- [Лабораторна робота №7](https://github.com/Berezhnyj/mobile-app-development-labs/tree/lab-07). Розроблення та інтеграція платформозалежних плагінів (Native Plugins)
+
+
+---
 
 ## 📄 Ліцензія
 
