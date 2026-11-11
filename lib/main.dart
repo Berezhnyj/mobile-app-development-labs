@@ -1,22 +1,22 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_lab1/counter_page.dart';
+import 'package:flutter_lab1/app_routes.dart';
+import 'package:flutter_lab1/theme/app_theme.dart';
 
 void main() {
-  runApp(const CounterApp());
+  runApp(const MeteoApp());
 }
 
-class CounterApp extends StatelessWidget {
-  const CounterApp({super.key});
+class MeteoApp extends StatelessWidget {
+  const MeteoApp({super.key});
 
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Flutter Lab 1',
+      title: 'Метеостанція',
       debugShowCheckedModeBanner: false,
-      theme: ThemeData(
-        colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
-      ),
-      home: const CounterPage(),
+      theme: AppTheme.light,
+      initialRoute: AppRoutes.login,
+      onGenerateRoute: AppRoutes.onGenerateRoute,
     );
   }
 }
